@@ -1,6 +1,6 @@
 <HTML>
 <head>
-<title>OOD_1: Student class: setters and getters</title>
+<title>OOD_2</title>
 </head>
 <body>
 
