@@ -44,7 +44,7 @@ return $this->pounds;
 }
 
 public function convertEurostoPounds(){
-  $this->pounds = ($this->euros*$this->exchangeRate);
+  $this->pounds = ($this->euros/$this->exchangeRate);
   return $this->pounds;
 }
 
