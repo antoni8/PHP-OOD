@@ -23,8 +23,9 @@ function discountCalculation($discount,$percentage,$price){
       return $price - $discountCalculation;
   }
 }
+// excepció
 try {
-  echo discountCalculation(10,100,50);
+  echo discountCalculation(10,0,50);
 }
 catch (Exception $e) {
     echo "S'ha capturat l'excepció: " . $e->getMessage() . "<br>";
